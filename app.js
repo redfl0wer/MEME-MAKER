@@ -1,3 +1,4 @@
+const colorOptions = Array.from(document.getElementsByClassName("color-option"));
 const color = document.getElementById("color");
 const lineWidth = document.getElementById("line-width");
 const canvas = document.querySelector("canvas");
@@ -37,3 +38,5 @@ canvas.addEventListener("mouseleave", cancelPainting);
 
 lineWidth.addEventListener("change", onLineWidthChange);
 color.addEventListener("change", onColorChange);
+
+colorOptions.forEach(color =>)
